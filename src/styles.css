@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Frijole&family=Bebas+Neue&family=Montserrat&display=swap");
+
+h1 {
+  font-family: "Bebas Neue";
+  font-weight: normal;
+  font-smooth: 2rem;
+  font-size: 5rem;
+  color: red;
+  margin: 0;
+}
+body {
+  margin: 0;
+  background-color: wheat;
+}
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+nav {
+  display: block;
+  flex-wrap: auto;
+  padding: 2rem 0;
+  margin-bottom: 1.5rem;
+  background-color: rgb(0, 0, 0);
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom: 2px solid black;
+  color: white;
+}
+.genre {
+  padding: 1rem 4rem;
+  margin: 1rem 2rem;
+  margin-top: 2.5rem;
+  color: red;
+  font-style: italic;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  border-width: auto;
+  box-shadow: black 0.2rem 0.5rem 2rem;
+  border-radius: 1.3rem;
+  background-color: black;
+  cursor: pointer;
+}
+
+.content {
+  padding-top: 2rem;
+  margin-bottom: 3.5rem;
+}
+.recomend {
+  margin: auto;
+  padding: auto;
+  padding-bottom: 0.7rem;
+  text-align: center;
+  font-size: 1.5rem;
+  width: auto;
+  max-width: 40rem;
+  border-radius: 1rem;
+  box-shadow: black 0.2rem 0.5rem 2rem;
+}
+.list {
+  list-style: none;
+  text-align: left;
+  color: whitesmoke;
+  padding: 1rem;
+  margin: 1rem;
+}
+.items {
+  opacity: 80%;
+  align-items: center;
+  margin: 1rem 0;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: black;
+}
+.source {
+  padding: 1rem 3rem;
+  margin: 1rem 2rem;
+  color: red;
+  font-weight: bold;
+  border: 0.2rem black;
+  box-shadow: black 0.2rem 0.4rem 1rem 0.2rem;
+  border-radius: 1.5rem;
+  background-color: black;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+}
+.lsbtn {
+  padding-bottom: 3rem;
+}
