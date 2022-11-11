@@ -123,7 +123,7 @@ export default function App() {
       <div className="lsbtn">
         <a
           className="source"
-          href="https://github.com/Shinu07/movie-recommendati"
+          href="https://github.com/Shinu07/Movieflix-movierecommendation"
         >
           Source Code
         </a>
