@@ -61,8 +61,13 @@ nav {
   list-style: none;
   text-align: left;
   color: whitesmoke;
+  width: auto;
   padding: 1rem;
   margin: 1rem;
+}
+li .link {
+  line-break: normal;
+  cursor: pointer;
 }
 .items {
   opacity: 80%;

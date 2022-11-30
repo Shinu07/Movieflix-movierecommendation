@@ -109,12 +109,13 @@ export default function App() {
       </div>
 
       <div className="content">
-        <div className="recomend">
+        <div className="recommend">
           <ul className="list">
             {movieDB[movie].map((movies) => (
               <li className="items">
                 <div>Name: {movies.name}</div>
                 <div>Ratings: {movies.rating}/10</div>
+                <div className="link"> Link: {movies.link} 👈(copy link)</div>
               </li>
             ))}
           </ul>
