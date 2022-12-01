@@ -65,9 +65,11 @@ nav {
   padding: 1rem;
   margin: 1rem;
 }
-li .link {
+a {
   line-break: normal;
   cursor: pointer;
+  color: white;
+  font-size: medium;
 }
 .items {
   opacity: 80%;

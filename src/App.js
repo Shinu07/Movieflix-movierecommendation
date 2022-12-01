@@ -115,7 +115,9 @@ export default function App() {
               <li className="items">
                 <div>Name: {movies.name}</div>
                 <div>Ratings: {movies.rating}/10</div>
-                <div className="link"> Link: {movies.link} 👈(copy link)</div>
+                <a href={movies.link} target="_blank" rel="noreferrer">
+                  Link
+                </a>
               </li>
             ))}
           </ul>
