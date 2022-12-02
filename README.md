@@ -4,7 +4,7 @@ This is a part of NeogCamp Level Zero programme.
 
 This is a Movies recommendation app
 
-This project use this technologies HTML, CSS, ReactJs. 
+This project is made by using technologies like HTML, CSS, ReactJs . 
 
 it has given choice of different geners like Action, Romantic, Drama.
 
