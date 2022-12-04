@@ -102,7 +102,7 @@ export default function App() {
           Select your Genre and we will recommend you with some good stuff:
         </h3>
         {Object.keys(movieDB).map((genre) => (
-          <button className="genre" onClick={() => onClickRecommend(genre)}>
+          <button className="genres" onClick={() => onClickRecommend(genre)}>
             {genre}
           </button>
         ))}
@@ -116,8 +116,11 @@ export default function App() {
                 <div>Name: {movies.name}</div>
                 <div>Ratings: {movies.rating}/10</div>
                 <a href={movies.link} target="_blank" rel="noreferrer">
-                  Link
+                  Link{" "}
                 </a>
+                <span role="img" aria-label="link">
+                  🔗
+                </span>
               </li>
             ))}
           </ul>
@@ -128,7 +131,7 @@ export default function App() {
           className="source"
           href="https://github.com/Shinu07/Movieflix-movierecommendation"
         >
-          Source Code
+          github
         </a>
       </div>
     </div>
